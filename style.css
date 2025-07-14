@@ -1109,5 +1109,14 @@ footer {
   font-size: 14px;
   color: #B3B3B3;
   text-align: center;
+}@media only screen and (max-width: 768px){
+  .card-box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+  }
 }
+
 
