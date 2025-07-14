@@ -762,7 +762,8 @@ footer {
 /* Jame */
 
 .feature-testimonial-section {
-  width: 100%;
+    width: 100vw;
+    max-width: 1200px;
   background: #fff;
   padding: 0;
 }
@@ -784,6 +785,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  font-family: Poppins;
 }
 
 .testimonial-section {
