@@ -213,6 +213,16 @@ header {
     line-height: 1.2;
     font-family: 'Rubik', sans-serif;
 }
+.feature-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 8px;
+    font-size: 1.3rem;
+    color: #181818;
+}
 
 .trusted-companies-section {
   padding: 100px 0 80px 0;
