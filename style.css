@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-h1 {
-    font-family: Poppins;
-}
 
 p {
     font-family: rubik;
@@ -71,42 +68,44 @@ p,a,button {
 }
 
 
-
 header {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
 }
 
 .header-navbar {
-    width: 100vw;
+    width: 80%;
     height: 100px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 50px;
-
+    padding-right: 100px;
 }
 
 #logo-header {
     padding-right: 30px;
-    padding-left: 100px;
 }
 
 #nav-menu {
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-left: 50px;
-    padding-right: 100px;
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
     gap: 80px;
+    font-size: 18px;
 }
+
 
 #head-button {
     width: 160px;
@@ -114,6 +113,8 @@ header {
     border-radius: 10px;
     background-color: black;
     color: white;
+    font-size: 16px;
+
 }
 
 .header-content {
@@ -121,8 +122,56 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    padding: 30px;
+    width: 100%;
+    margin-top: 60px;
+    gap: 200px;
+}
+
+
+
+
+.right-content {
+  position: relative;
+  width: 600px;
+}
+
+.head-img {
+    width: 100%;
+}
+
+.element-h-1 {
+    position: absolute;
+    top: 0;
+    right: -100px;
+}
+
+.element-h-2 {
+    position: absolute;
+    top: 10px;
+    left: -60px;
+}
+
+
+.left-content {
+    width: 50vh;
+}
+
+#head-left-cont {
+
+    font-size: 80px;
+    font-weight: 90;
+    font-family: Poppins;
+}
+
+#head-left-cont span {
+    display: block;
+}
+
+#detail-left-cont {
+   font-size: 18px;
+   color: #888;
+   padding-top: 10px;
+   padding-bottom: 40px;
 }
 
 .trusted-companies-section {
@@ -358,4 +407,13 @@ p,a,button {
     font-weight: 600;
     letter-spacing: 0.5px;
     cursor: pointer;
+}
+#discover-header {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #f1a925;
+    border: none;
+    color: white;
+    font-size: 16px;
 }
