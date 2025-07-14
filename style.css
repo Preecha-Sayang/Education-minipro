@@ -12,6 +12,10 @@ p {
 }
 
 body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background: #ffffff;
+  color: #181818;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -313,15 +317,8 @@ header {
     transform: scale(105%);
     transition: 0.3s;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-h1,h3 {
-    font-family: 'Poppins', sans-serif;
-}
 
-p,a,button {
-    font-family: 'Rubik', sans-serif;
-}
 
 .title {
     font-size: 2.5rem;
@@ -417,4 +414,191 @@ p,a,button {
     border: none;
     color: white;
     font-size: 16px;
+}
+
+
+
+
+
+/* CTA Section */
+.cta-section {
+  background: #2A2A31;
+  color: #ffffff;
+  height: 250px;
+  width: 100%;
+  padding: 0;
+}
+
+.cta-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1420px;
+  padding-left: 250px;
+  padding-right: 40px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cta-text h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  margin: 0;
+}
+
+.arrow-img {
+  width: 94px;
+  height: 47px;
+  margin-top: -40px;
+  margin-left: 350px;
+  transform: rotate(5deg);
+  transform-origin: right;
+}
+
+.register-btn {
+  background: #FFA502;
+  color: #fff;
+  width: 163px;
+  height: 64px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.2px;
+  transition: background 0.2s;
+}
+
+.register-btn:hover {
+  background: #ffb733;
+}
+
+footer {
+  background: #111116;
+  color: #ffffff;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+.footer-inner {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  padding: 40px 40px 0 250px;
+  box-sizing: border-box;
+  gap: 60px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  flex: 0 0 300px;
+}
+
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.logo-icon {
+  width: 28px;
+}
+
+.eu-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+}
+
+.footer-logo p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #B2B2B2;
+    max-width: 308px;
+    width: 308px;
+    letter-spacing: 0;
+    box-sizing: content-box;
+    margin-bottom: 16px;
+
+  }
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+  flex: 1;
+}
+
+.footer-links h4 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.footer-links p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #B3B3B3;
+  margin: 0;
+  cursor: pointer;
+}
+
+.footer-links strong {
+  color: white;
+  font-weight: 700;
+}
+
+.footer-links span {
+  color: #B3B3B3;
+}
+
+.footer-line {
+  border-top: 1px solid #ffffff; opacity: 0.2;
+  max-width: 1420px;
+  margin: 40px auto 0;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #B3B3B3;
+  text-align: center;
 }
