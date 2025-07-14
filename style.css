@@ -42,6 +42,7 @@ p,a,button {
   align-items: center;
   padding: 24px 48px;
   margin: 48px 0;
+  margin-bottom: 200px; 
 }
 
 .teachers-intro-text h2 {
@@ -182,9 +183,12 @@ header {
 .feature-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     gap: 56px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
 }
 
 .feature-content-left,
@@ -193,36 +197,41 @@ header {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 16px;
 }
 
 .feature-title {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #181818;
     line-height: 1.2;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 4px;
 }
 
 .feature-desc {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
     color: #6F6F76;
     line-height: 1.2;
     font-family: 'Rubik', sans-serif;
+    margin-bottom: 12px;
 }
+
 .feature-social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
     margin-top: 8px;
     font-size: 1.3rem;
     color: #181818;
 }
+/* jame */
+
 
 .trusted-companies-section {
   padding: 100px 0 80px 0;
