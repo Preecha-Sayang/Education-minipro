@@ -757,7 +757,7 @@ header {
 }
 
 .get-started-btn:hover {
-  background-color: #e69502;
+  background-color: #ffb733;
   transform: scale(105%);
   transition: 0.3s;
 }
@@ -809,8 +809,8 @@ header {
   }
 
   .get-started-btn {
-    font-size: 16px;
-    padding: 25px;
+    font-size: 30px;
+    padding: 32px;
 
   }
 }
