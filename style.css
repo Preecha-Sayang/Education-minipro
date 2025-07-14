@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+h1 {
+    font-family: Poppins;
+}
+
+p {
+    font-family: rubik;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -60,6 +68,61 @@ p,a,button {
 .view-all-teachers-btn:hover {
   background-color: #e69502;
   transform: translateY(-2px) scale(1.03);
+}
+
+
+
+header {
+    width: 100%;
+}
+
+.header-navbar {
+    width: 100vw;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+
+}
+
+#logo-header {
+    padding-right: 30px;
+    padding-left: 100px;
+}
+
+#nav-menu {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+#head-button {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 30px;
 }
 
 .trusted-companies-section {
