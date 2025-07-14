@@ -55,7 +55,6 @@ body {
 }
 
 .trusted-companies-section {
-  width: 100vw;
   padding: 100px 0 80px 0;
   text-align: center;
   justify-content: center;
@@ -69,11 +68,10 @@ body {
 }
 
 .companies-logo {
-  width: fit-content;
-  margin: 40px auto 0 auto;
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-top: 30px;
 }
 
 .martoni_logo,
@@ -81,7 +79,7 @@ body {
 .promedia_logo,
 .studio_logo,
 .maxdino_logo {
-  width: 160px;
+  width: 180px;
   height: auto;
   padding: 5px 10px 5px 10px;
 }
@@ -93,7 +91,7 @@ body {
 .maxdino_logo:hover {
   border-radius: 10px;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.1);
-  transform: scale(110%);
+  transform: scale(105%);
   transition: 0.3s;
 }
 
@@ -102,32 +100,37 @@ body {
 }
 
 .circle-container {
+  width: 50vw;
+  height: auto;
   padding: 150px;
-}
-
-.circle-blue {
-  width: 500px;
-  height: 500px;
-  background-color: #d4eff6;
-  border-radius: 50%;
   position: relative;
 }
 
-.circle-yellow {
+.circle-blue {
   width: 400px;
   height: 400px;
+  background-color: #d4eff6;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 300px;
+  left: 400px;
+}
+
+.circle-yellow {
+  width: 300px;
+  height: 300px;
   background-color: #fee095;
   border-radius: 50%;
   position: absolute;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  top: 620px;
-  left: 350px;
+  transform: translate(-50%, -50%);
+  top: 200px;
+  left: 530px;
 }
 
 .video-play-btn {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,8 +139,8 @@ body {
   border-radius: 50%;
   border: none;
   position: absolute;
-  top: 760px;
-  left: 580px;
+  top: 300px;
+  left: 550px;
 }
 
 .video-play-btn:hover {
@@ -145,20 +148,21 @@ body {
 }
 
 .video-play-btn img {
-  width: 20px;
+  width: 15px;
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 110px;
+  padding: 100px 150px;
+  width: 50vw;
 }
 
 .text-container h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   line-height: 3.5rem;
 }
 
@@ -166,23 +170,25 @@ body {
   font-family: "Rubik", sans-serif;
   margin-top: 20px;
   color: #6f6f76;
-  line-height: 36px;
+  line-height: 28px;
 }
 
 .get-started-btn {
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 18px 20px;
     align-self: flex-start;
+    font-size: 12px;å
     font-weight: bold;
     color: white;
     border: none;
     border-radius: 10px;
     background-color: #FFA502;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     cursor: pointer;
 }
 
 .get-started-btn:hover {
     background-color: #e69502;
-    transform: scale(110%);
+    transform: scale(105%);
     transition: 0.3s;
 }
