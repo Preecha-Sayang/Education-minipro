@@ -664,12 +664,13 @@ header {
 .circle-text-container {
   display: flex;
   padding-bottom: 80px;
+
 }
 
 .circle-container {
-  width: 50vw;
+  width: 55%;
   height: auto;
-  padding: 150px;
+  padding: 150px 0 150px 0;
   position: relative;
 }
 
@@ -722,8 +723,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 150px;
-  width: 50vw;
+  padding: 100px 50px;
+  width: 50%;
 }
 
 .text-container h3 {
@@ -737,6 +738,7 @@ header {
   font-family: "Rubik", sans-serif;
   margin-top: 20px;
   color: #6f6f76;
+  font-size: 1.2rem;
   line-height: 28px;
 }
 
@@ -744,7 +746,7 @@ header {
   margin-top: 40px;
   padding: 18px 20px;
   align-self: flex-start;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   color: white;
   border: none;
@@ -763,7 +765,7 @@ header {
 @media only screen and (max-width: 768px) {
     
   .trusted-companies-section h3 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 
   .companies-logo {
@@ -776,32 +778,34 @@ header {
   .promedia_logo,
   .studio_logo,
   .maxdino_logo {
-    width: 300px;
+    width: 350px;
   }
 
   .circle-text-container {
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
   }
 
   .circle-container {
     bottom: 80px;
-    right: 20px;
+    right: 10%;
   }
 
   .text-container {
-    width: 100vw;
+    width: 100%;
     align-self: center;
     margin: 130px 0;
     padding: 40px 100px;
   }
 
   .text-container h3 {
-    line-height: 3rem;
+    font-size: 3rem;
+    line-height: 4rem;
   }
 
   .text-container p {
-    line-height: 34px;
+    font-size: 2rem;
+    line-height: 38px;
   }
 
   .get-started-btn {
