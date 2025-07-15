@@ -11,14 +11,18 @@
      <header>
         <div class="header-navbar">
             <div id="logo-header">
-                <img src="/img/logo-head.png" alt="Logo" class="logo">
+                <img src="/img/logo-head.png" alt="Logo" class="logo-h">
             </div>
+            
+            <img src="/img/Category.png" alt="list-menu" class="hamberger" onclick="myFunction(this)">
+
             <div id="nav-menu"> 
                 <div id="navbar">
                     <p>Home</p>
                     <p>Admission</p>
                     <p>Academic</p>
                 </div>
+
 
                 <button type="button" id="head-button">
                     Contact Now
@@ -43,14 +47,19 @@
             </div>
 
             <div class="right-content">
-                <img src="/img/head-right1.png" alt="img-1" class="head-img">
-                <img src="/img/head-right2.png" alt="img-2"  class="element-h-1">
-                <img src="/img/head-right3.png" alt="img-3" class="element-h-2">
+                  <img src="/img/head-right1.png" alt="img-1" class="head-img">
+                  <img src="/img/head-right2.png" alt="img-2"  class="element-h-1">
+                  <img src="/img/head-right3.png" alt="img-3" class="element-h-2">
             </div>
         </div>
 
      </header>
-
+<script>
+  function myFunction(el) {
+    const navMenu = document.getElementById("nav-menu");
+    navMenu.style.display = navMenu.style.display === "flex" ? "none" : "flex";
+  }
+</script>
     <!-- jue -->
     <section>
       <div class="trusted-companies-section">
@@ -303,6 +312,7 @@
       </div>
     </div>
   </footer>
+
 
 </body>
 </html>
