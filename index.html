@@ -1,38 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>miniproject-Education</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- ano -->
-     <section>
+     <header>
+        <div class="header-navbar">
+            <div id="logo-header">
+                <img src="/img/logo-head.png" alt="Logo" class="logo-h">
+            </div>
+            
+            <img src="/img/Category.png" alt="list-menu" class="hamberger" onclick="myFunction(this)">
 
-     </section>
+            <div id="nav-menu"> 
+                <div id="navbar">
+                    <p>Home</p>
+                    <p>Admission</p>
+                    <p>Academic</p>
+                </div>
 
-     <!-- jue -->
-     <section> 
 
-     </section>
-     
+                <button type="button" id="head-button">
+                    Contact Now
+                </button>
+            </div>
+        </div>
+
+        <div class="header-content">
+            <div class="left-content">
+                <div id="head-left-cont"> 
+                    <span> Start Your</span> 
+                    <span>Future</span>
+                    <span>Education</span>
+                </div>
+                <p id="detail-left-cont">Credibly redefine distinctive total linkage vis-a-vis multifunc
+                data. Phosjluorescently impact goal-oriented strategic
+                </p>
+                <button type="button" id="discover-header">
+                    Discover More
+                </button>
+                
+            </div>
+
+            <div class="right-content">
+                  <img src="/img/head-right1.png" alt="img-1" class="head-img">
+                  <img src="/img/head-right2.png" alt="img-2"  class="element-h-1">
+                  <img src="/img/head-right3.png" alt="img-3" class="element-h-2">
+            </div>
+        </div>
+
+     </header>
+<script>
+  function myFunction(el) {
+    const navMenu = document.getElementById("nav-menu");
+    navMenu.style.display = navMenu.style.display === "flex" ? "none" : "flex";
+  }
+</script>
+    <!-- jue -->
+    <section>
+      <div class="trusted-companies-section">
+        <h3>Trusted Companies</h3>
+        <div class="companies-logo">
+          <img
+            src="./assets/images/companies_logo/Martoni_1.png"
+            alt="martoni_logo"
+            class="martoni_logo"
+          />
+          <img
+            src="./assets/images/companies_logo/Real Estate_1.png"
+            alt="real_estate_logo"
+            class="real_estate_logo"
+          />
+          <img
+            src="./assets/images/companies_logo/promedia_1.png"
+            alt="promedia_logo"
+            class="promedia_logo"
+          />
+          <img
+            src="./assets/images/companies_logo/Studio_1.png"
+            alt="studio_logo"
+            class="studio_logo"
+          />
+          <img
+            src="./assets/images/companies_logo/Maxdino_1.png"
+            alt="maxdino_logo"
+            class="maxdino_logo"
+          />
+        </div>
+      </div>
+
+      <div class="circle-text-container">
+        <div class="circle-container">
+          <img src="./assets/images/circles_video.png" alt="circle_video">
+        </div>
+        <div class="text-container">
+          <h3>
+            We Help to Create<br />
+             Possibility & Success<br />
+              in Your Career!
+            </h3>
+          <p>
+            Continually administrate process-&nbsp;centric human capital rather than
+            bleeding-&nbsp;edge methodologies. Distinctively supply accurate methods
+            of empowerment before.
+          </p>
+          <button type="submit" class="get-started-btn">
+            Get Started Today
+          </button>
+        </div>
+      </div>
+    </section>
+
     <!-- pui -->
      <section>
-
+        <div class="box-container">
+            <h1 class="title">We Have Most of<br>Popular Department</h1>
+            <div class="card-box">
+                <div class="card">
+                    <div class="card-img"></div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Assertively parallel task synergistic deliverables after high-quality.</p>
+                    <a href="#">Learn More →</a>
+                </div>   
+                <div class="card">
+                    <div class="card-img"></div>
+                    <h3>Civil Engineering</h3>
+                    <p>Assertively parallel task synergistic deliverables after high-quality.</p>
+                    <a href="#">Learn More →</a>
+                </div>   
+                <div class="card">
+                    <div class="card-img"></div>
+                    <h3>Business Studies</h3>
+                    <p>Assertively parallel task synergistic deliverables after high-quality.</p>
+                    <a href="#">Learn More →</a>
+                </div> 
+            </div>
+            <button class="btn">View All Department</button>
+        </div>
      </section>
 
     <!-- jame -->
-
-    <section>
-
-    </section>
-
-    <!-- yuu -->
-    <section>
-
-    </section>
-
+     
+    <!-- feature intro -->
+    <section class="teachers-section">
+        <div class="teachers-header">
+          <div>
+            <h1>Intriduce with Our<br>Famous Teacher</h1>
+          </div>
+          <div>
+            <a href="#" class="view-all-btn">View All Teachers</a>
+          </div>
+        </div>
+        <div class="teachers-list">
+          <div class="teacher-card">
+            <div class="teacher-img" style="background-color: #d7d1fa;">
+              <img src="assets/images/Circleshape1.png" alt="Shaapir Prio">
+            </div>
+            <div class="teacher-info">
+              <h2>Shaapir Prio</h2>
+              <p>Assistant Director</p>
+              <div class="teacher-socials">
+                <img src="assets/images/Icon-google.png" alt="Google">
+                <img src="assets/images/Icon-twitter.png" alt="Twitter">
+                <img src="assets/images/Icon-instagram.png" alt="Instagram">
+                <img src="assets/images/Icon-LinkedIn.png" alt="LinkedIn">
+              </div>
+            </div>
+          </div>
+          <div class="teacher-card">
+            <div class="teacher-img" style="background-color: #b6f8d7;">
+              <img src="assets/images/Circleshape2.png" alt="Sellina">
+            </div>
+            <div class="teacher-info">
+              <h2>Sellina</h2>
+              <p>Director</p>
+              <div class="teacher-socials">
+                <img src="assets/images/Icon-google.png" alt="Google">
+                <img src="assets/images/Icon-twitter.png" alt="Twitter">
+                <img src="assets/images/Icon-instagram.png" alt="Instagram">
+                <img src="assets/images/Icon-LinkedIn.png" alt="LinkedIn">
+              </div>
+            </div>
+          </div>
+          <div class="teacher-card">
+            <div class="teacher-img" style="background-color: #ffd1b6;">
+              <img src="assets/images/Circleshape3.png" alt="John Smith">
+            </div>
+            <div class="teacher-info">
+              <h2>John Smith</h2>
+              <p>Assistant Director</p>
+              <div class="teacher-socials">
+                <img src="assets/images/Icon-google.png" alt="Google">
+                <img src="assets/images/Icon-twitter.png" alt="Twitter">
+                <img src="assets/images/Icon-instagram.png" alt="Instagram">
+                <img src="assets/images/Icon-LinkedIn.png" alt="LinkedIn">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     
+    <section class="testimonial-wrapper">
+      <div class="testimonial-section">
+        <div class="testimonial-left">
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-avatar"></div>
+              <div class="testimonial-info">
+                <div class="testimonial-name">Jaquon Hart</div>
+                <div class="testimonial-role">Civil Engineer</div>
+              </div>
+            </div>
+            <div class="testimonial-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="testimonial-text">
+              “With Edu, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.”
+            </div>
+          </div>
+          <div class="testimonial-card testimonial-card-blur">
+            <div class="testimonial-header">
+              <div class="testimonial-avatar"></div>
+            </div>
+            <div class="testimonial-text testimonial-text-blur">
+              “With Edu, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.”
+            </div>
+          </div>
+          <div class="testimonial-nav">
+            <button class="testimonial-btn testimonial-btn-prev">&#8592;</button>
+            <button class="testimonial-btn testimonial-btn-next">&#8594;</button>
+          </div>
+        </div>
+        <div class="testimonial-right">
+          <div class="testimonial-title">5000 Reviews from<br>Our Successful<br>Students!</div>
+          <div class="testimonial-desc">
+            Teractively recaptualize intermandated e-commerce after sticky applications. Dynamically reintermediate viral testing procedures through technically sound.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- yuu CTA Section-->
+    <section class="cta-section">
+      <div class="cta-content">
+        <div class="cta-text">
+          <h2>
+            Create Free Account <br />
+            & Get Register
+            <img src="image-icon/Arrow.png" alt="arrow" class="arrow-img" />
+          </h2>
+        </div>
+        <button class="register-btn">Register Now</button>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo">
+          <div class="logo-group">
+            <img src="image-icon/EU footer logo.png" alt="EU Logo" class="logo-icon" />
+            <h3 class="eu-text">Eu.</h3>
+          </div>
+          <p>
+            Professionally scale cross functional<br />
+            human capital and extensive technology.
+          </p>
+          <div class="social-icons desktop-only">
+            <img src="image-icon/Google Icon.png" alt="Google" />
+            <img src="image-icon/X Icon.png" alt="X" />
+            <img src="image-icon/Instagram Icon.png" alt="Instagram" />
+            <img src="image-icon/Linkedin Icon.png" alt="LinkedIn" />
+          </div>
+        </div>
+    
+        <div class="footer-links">
+          <div>
+            <h4>Services</h4>
+            <p>Documentation</p>
+            <p>Design</p>
+            <p>Themes</p>
+            <p>Illustrations</p>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <p>About</p>
+            <p>Terms</p>
+            <p>Privacy Policy</p>
+            <p>Careers</p>
+          </div>
+          <div>
+            <h4>Job Info</h4>
+            <p>Select</p>
+            <p>Services</p>
+            <p>Payment</p>
+          </div>
+          <div class="contact-section">
+            <h4>Contact</h4>
+            <p><strong>Call :</strong> <span class="muted">971 5546 963</span></p>
+            <p><strong>Email :</strong> <span class="muted">example@gmail.com</span></p>
+            <p><strong>Address :</strong> <span class="muted">Dhaka, Bangladesh</span></p>
+            <div class="social-icons mobile-only">
+              <img src="image-icon/Google Icon.png" alt="Google" />
+              <img src="image-icon/X Icon.png" alt="X" />
+              <img src="image-icon/Instagram Icon.png" alt="Instagram" />
+              <img src="image-icon/Linkedin Icon.png" alt="LinkedIn" />
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer-line"></div>
+      <div class="footer-bottom">
+        <p>Copyright©chakri. All right reserved</p>
+      </div>
+    </footer>
+
+
 </body>
 </html>
