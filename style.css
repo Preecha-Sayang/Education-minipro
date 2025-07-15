@@ -670,9 +670,14 @@ header {
 
 }
 
+.circle-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
 .circle-container img {
-  width: 500px;
-  margin-left: 100px;
+  width: 100%;
 }
 
 
