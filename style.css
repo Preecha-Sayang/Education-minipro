@@ -862,9 +862,8 @@ p,a,button {
     flex-direction: column;
     align-items: center;
     background-color: #fffbf4;
-    padding: 60px 0 80px 0; 
-    min-width: 1700px;
-    max-height: 1200px;
+    padding: 60px 0 80px 0;
+    width: 100vw; 
 }
 
 .card-box {
@@ -940,8 +939,7 @@ p,a,button {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    width: 100%;
-    /* min-width: unset; */
+    width: 100vw;
     height: 100%;
     padding: 24px 0 40px 0;
     margin: 0;
@@ -950,20 +948,19 @@ p,a,button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     gap: 24px;
     margin-bottom: 24px;
   }
   .card {
-    width: 90vw;
-    min-width: unset;
-    max-width: 400px;
+    width: 380px;
     margin: 0 auto;
+    box-shadow: none;
   }
   .card-img {
     background-color: #c4c4c4;
     width: 100%;
-    height: 180px;
+    height: 250px;
     border-radius: 12px;
     margin-bottom: 24px;
   }
