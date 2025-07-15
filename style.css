@@ -748,15 +748,9 @@ header {
     width: 100%;
   }
 
-  .circle-container {
-    padding-right: 80px;
-  }
-
   .text-container {
     width: 100%;
     align-self: center;
-    margin: 50px 0;
-    padding: 40px 100px;
   }
 
   .text-container h3 {
