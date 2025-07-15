@@ -22,12 +22,15 @@ body {
   align-items: center;
 }
 
-h1, h3 {
-    font-family: 'Poppins', sans-serif;
+h1,
+h3 {
+  font-family: "Poppins", sans-serif;
 }
 
-p,a,button {
-    font-family: 'Rubik', sans-serif;
+p,
+a,
+button {
+  font-family: "Rubik", sans-serif;
 }
 
 
@@ -660,12 +663,14 @@ header {
 
 .circle-text-container {
   display: flex;
+  padding-bottom: 80px;
+
 }
 
 .circle-container {
-  width: 50vw;
+  width: 55%;
   height: auto;
-  padding: 150px;
+  padding: 150px 0 150px 0;
   position: relative;
 }
 
@@ -718,8 +723,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 150px;
-  width: 50vw;
+  padding: 100px 50px;
+  width: 50%;
 }
 
 .text-container h3 {
@@ -733,116 +738,181 @@ header {
   font-family: "Rubik", sans-serif;
   margin-top: 20px;
   color: #6f6f76;
+  font-size: 1.2rem;
   line-height: 28px;
 }
 
 .get-started-btn {
-    margin-top: 40px;
-    padding: 18px 20px;
-    align-self: flex-start;
-    font-size: 12px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    background-color: #FFA502;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    cursor: pointer;
+  margin-top: 40px;
+  padding: 18px 20px;
+  align-self: flex-start;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffa502;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
 }
 
 .get-started-btn:hover {
-    background-color: #e69502;
-    transform: scale(105%);
-    transition: 0.3s;
+  background-color: #ffb733;
+  transform: scale(105%);
+  transition: 0.3s;
 }
 
+@media only screen and (max-width: 768px) {
+    
+  .trusted-companies-section h3 {
+    font-size: 2.5rem;
+  }
 
+  .companies-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .martoni_logo,
+  .real_estate_logo,
+  .promedia_logo,
+  .studio_logo,
+  .maxdino_logo {
+    width: 350px;
+  }
+
+  .circle-text-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .circle-container {
+    bottom: 80px;
+    right: 10%;
+  }
+
+  .text-container {
+    width: 100%;
+    align-self: center;
+    margin: 130px 0;
+    padding: 40px 100px;
+  }
+
+  .text-container h3 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .text-container p {
+    font-size: 2rem;
+    line-height: 38px;
+  }
+
+  .get-started-btn {
+    font-size: 30px;
+    padding: 32px;
+
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+h1,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+button {
+  font-family: "Rubik", sans-serif;
+}
 
 .title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #181818;
-    text-align: center;
-    margin-bottom: 36px;
-    padding: 0;
-    line-height: 1.2;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 36px;
+  padding: 0;
+  line-height: 1.2;
 }
 
 .box-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fffbf4;
-    padding: 60px 0 80px 0; /* ลด padding ข้างและเพิ่มด้านล่าง */
-    width: 90vw;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffbf4;
+  padding: 60px 0 80px 0; /* ลด padding ข้างและเพิ่มด้านล่าง */
+  width: 90vw;
+  min-height: 100vh;
 }
 
 .card-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 32px;
-    width: 100%;
-    max-width: 1200px;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
 }
 
 .card {
-    background-color: #fff;
-    width: 340px;
-    min-height: 370px;
-    padding: 28px 24px 32px 24px;
-    border-radius: 16px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  background-color: #fff;
+  width: 340px;
+  min-height: 370px;
+  padding: 28px 24px 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .card-img {
-    background-color: #c4c4c4;
-    width: 100%;
-    height: 160px;
-    border-radius: 12px;
-    margin-bottom: 24px;
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 160px;
+  border-radius: 12px;
+  margin-bottom: 24px;
 }
 
 .card h3 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .card p {
-    font-size: 15px;
-    color: #444;
-    margin-bottom: 24px;
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 24px;
 }
 
 .card a {
-    color: #ffa502;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
+  color: #ffa502;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .btn {
-    margin: 0 auto;
-    display: block;
-    padding: 14px 32px;
-    border-radius: 8px;
-    background-color: #ffa502;
-    color: #fff;
-    border: none;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.10);
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  padding: 14px 32px;
+  border-radius: 8px;
+  background-color: #ffa502;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
 }
 #discover-header {
     width: 200px;
